@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Big+Shoulders+Display:wght@300&display=swap');
+
+@keyframes pointingArrow {
+    from {
+        top:0%;
+    }
+    to {
+        top:30%;
+    }
+   
+}
+
+
+
+
+
+.heroContainer {
+    background-image: url('../../assets/pictures/market.jpg');
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    background-attachment: fixed;
+    height: 92vh;
+    background-size: 100% 100% ;
+}
+
+.title {
+    flex:2;
+    
+    
+}
+
+
+
+
+.textArea {
+    border:2px solid #5CDB95;
+    text-align: center;
+    color: #5CDB95;
+    font-family:'Amatic SC',cursive;
+    font-size: 3em;
+}
+
+.blank {
+    height: 75%;
+    text-align: center;
+    color: white;
+    
+}
+
+.arrow {
+    position: relative;
+    text-align: center;
+   
+}
+
+.arrow:hover {
+    animation: 1s pointingArrow infinite linear;
+    cursor: pointer;
+}
+
+.downArrow {
+    color:#5CDB95;
+    
+}
+
+.arrowContainer {
+    position: relative;
+    height: 30px;
+}
+

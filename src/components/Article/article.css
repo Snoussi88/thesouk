@@ -1,0 +1,76 @@
+/*blue shade : #05386B
+green shade : #5CDB95
+lighter green: #8EE4AF
+*/
+
+* {
+    margin: 0;
+}
+
+body{
+    background-color: #F3E8EE;
+}
+.container {
+    display: flex;
+    background-color: #01110A;
+    height:370px;
+    width: 320px;
+}
+
+.container:hover{
+    display: flex;
+    background-color: #171717;
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.60);
+    outline: 3px solid #5CDB95;
+
+}
+
+.container div {
+   padding: 5px;
+}
+
+.box1{
+    flex:1;
+
+}
+
+.box2{
+    flex:8;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box3{
+    flex:1;
+
+}
+
+.imageContainer{
+    background-image: url('../../assets/pictures/shirt.jpg') ;
+    width: auto;
+    height: 300px;
+    background-size: cover;  
+}
+
+.buttonContainer{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+    color: aliceblue;
+    
+}
+
+.articleTitle{
+    text-align: center;
+    color:white;
+    font-size: 3.5mm;
+}
+
+.articlePrice{
+    text-align: center;
+    color:white;
+    font-size: 3.5mm;
+}
+

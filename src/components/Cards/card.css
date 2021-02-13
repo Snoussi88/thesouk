@@ -1,0 +1,28 @@
+@keyframes anim {
+    from {
+        top:0%;
+    }
+    to {
+        top:100%;
+    }
+}
+
+.cardContainer {
+    position: absolute;
+    text-align: center;
+    background-color: #1da1f2;
+    width: 50px;
+    color: white;
+    height: 50px;
+    
+    
+}
+
+.cardContainer:hover {
+    animation: anim 10s infinite linear;
+    
+}
+
+
+    
+

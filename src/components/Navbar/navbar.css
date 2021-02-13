@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Big+Shoulders+Display:wght@300&display=swap');
+
+
+.navbarContainer {
+    position:fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    height: 55px;
+}
+
+input {
+
+    width: 80%;
+    height: 22px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0,0.1) 4px 4px 4px 4px;
+    border-color: transparent;
+    
+}
+
+input:focus {
+    outline:2px solid #5CDB95;
+}
+
+.brand {
+    
+    background-image: url('../../assets/pictures/logo.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:55px;
+    width: 60px;
+    
+}
+
+.search {
+    outline:#5CDB95 2px solid;
+    flex:2;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.Logos {
+    outline: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+.loginLogo {
+    flex: 1;
+    outline: #5CDB95 2px solid;
+}
+
+.brandName {
+    font-family:'Amatic SC',cursive;
+    font-size:xx-large;
+    color: white;
+    padding: 10px;
+    width: 140px;
+}
+
+.Logo {
+    display: inline-flex;
+    flex:1;
+    /*
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 40px;
+    */
+}
+.Logo:hover {
+    cursor: pointer;
+}
+
+.dropDown {
+    outline:#5CDB95 2px solid;
+    flex:1;
+    display: none;
+    position: absolute;
+    top:7%;
+    color: black;
+    background-color: white;
+    z-index: 1;
+}
+
+.bars {
+    outline: #5CDB95 2px solid;
+    font-size: 23px;
+}
