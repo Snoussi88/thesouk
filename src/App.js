@@ -1,12 +1,17 @@
 import { React } from 'react';
-import Card from './components/Cards/Card';
+import Footer from './components/Footer/Footer.jsx';
+import Navbar from './components/Navbar/Navbar';
+import HeroSection from './components/HeroSection/HeroSection';
+import Carousel from './components/Carousel/Carousel';
 
 
 function App() {
   return (
     <div>
-      <Card></Card>
-    
+      <Navbar></Navbar>
+      <HeroSection></HeroSection>
+      <Carousel></Carousel>
+      <Footer></Footer>
     </div>
   );
 }

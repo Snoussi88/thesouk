@@ -8,18 +8,17 @@
 }
 
 .cardContainer {
-    position: absolute;
     text-align: center;
-    background-color: #1da1f2;
-    width: 50px;
-    color: white;
-    height: 50px;
+    background-color: white;
+    width: 300px;
+    color: black;
+    height: 400px;
     
     
 }
 
 .cardContainer:hover {
-    animation: anim 10s infinite linear;
+    box-shadow: rgba(0,0,0,0.2) 3px 3px 3px 3px;
     
 }
 
